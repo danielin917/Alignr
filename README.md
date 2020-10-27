@@ -4,7 +4,7 @@ Alignr performs both global and local alignment on amino acid sequence files in 
 
 The following command will build the executable. C++11 features are used so c++0x is a required flag for the compiler.                                       
                                                                                  
-g++ -std=c++0x main.cc alignment.cc                                              
+g++ -std=c++0x main.cc src/alignment.cc                                              
                                                                                                                                                                     
 To run the code after building execute using the following args:                 
 ./a.out <local | global> file1_path file2_path <optional: num_permutations>   

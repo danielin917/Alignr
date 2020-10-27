@@ -11,7 +11,7 @@
 #include <cstdlib>
 #include <iostream>
 #include <time.h>
-#include "alignment.h"
+#include "src/alignment.h"
 
 using namespace std;
 

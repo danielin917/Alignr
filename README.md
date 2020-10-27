@@ -1,6 +1,6 @@
 # Alignr
 
-Alignr performs both global and local alignment on amino acid sequence files in FASTA format based on the Needleman-Wunsch and Smith-Waterman algorithms. It will also calculate the empirical P-Value score of these alignments by performing random shuffles and aligning against the second sequence.
+Alignr performs both global and local alignment on amino acid sequence files in FASTA format based on the Needleman-Wunsch and Smith-Waterman algorithms. It will also calculate the empirical P-Value score of these alignments by performing random shuffles and aligning against these shuffled sequences.
 
 The following command will build the executable. C++11 features are used so c++0x is a required flag for the compiler.                                       
                                                                                  

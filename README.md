@@ -11,9 +11,10 @@ To run the code after building execute using the following args:
                                                                                  
 By default after doing intial alignment permutation runs of the second sequence will kick off in order to calculate the P-Value. If you would like to skip the permutation step simply add 0 to the end and the permutation step will be skipped. Code loosely requires valid amino acid chars and a FASTA like format to pick up an identifier.   
 
-By default this code is hardcoded to use the BLOSUM62 score matrix.
+By default this code is hardcoded to use the BLOSUM62 score matrix with a linear gap score of 4.
 
 TODO:
 - Allow pass in of score matrix file
 - Incorporate cmake
-- Allow for DNA alignment/arbitrary text using passed in score matrx
+- Allow for DNA alignment/arbitrary text using passed in score matrix
+- Allow for user given gap scores and affine gap scores.
